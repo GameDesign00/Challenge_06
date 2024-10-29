@@ -12,7 +12,7 @@
 
 # Parte V: 
 
-# Parte ¯\_(ツ)_/¯: Opiniones Personales Sobre la Actividad
+# Parte ¯\\_(ツ)_/¯: Opiniones Personales Sobre la Actividad
 
 ## Sebastián Negrón:
 
