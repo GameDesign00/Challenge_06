@@ -24,14 +24,18 @@
 ### Crea un prefab de pared y añade Rigidbody y Collider. Coloca las paredes en un objeto vacío, con ocho entre cada esquina, totalizando 32 paredes.
 ![image](https://github.com/user-attachments/assets/29233abf-5573-43d9-9a01-97cc0251624f)
 
-## Paso #5: Configurar Spawners de Enemigos
+## Paso #5: Configurar Spawners de Enemigos y Añadir Skybox (adicional)
 ### Crea un objeto vacío llamado EnemySpawners y coloca cuatro objetos vacíos adicionales dentro. A cada uno, asígnales el siguiente script:
 ![image](https://github.com/user-attachments/assets/f68e9e2c-0783-43d3-922a-5fdc1638b779)
-## Asegúrate de que cada spawner tenga un objeto asignado. Aquí usamos un prefab del mismo modelo del jugador, llamado Enemy.
+### Asegúrate de que cada spawner tenga un objeto asignado. Aquí usamos un prefab del mismo modelo del jugador, llamado Enemy. Para hacer la escena más dinámica, incluimos un skybox. 
 ![image](https://github.com/user-attachments/assets/cc62815e-0ff3-4bab-aa08-da707ed170d1)
 
+## Paso 6: 
+### Los siguientes scripts son importantes para el funcionamiento del proyecto. A continuacion, pon estos scripts al enemigo: Enemy, EnemyLife y EnemyMovement
+![image](https://github.com/user-attachments/assets/14b85bca-6eb7-429b-88b1-395778ee8f65)
+![image](https://github.com/user-attachments/assets/908ad873-b726-44cf-8c7a-cfd66b25f342)
+![image](https://github.com/user-attachments/assets/18aa79ee-21f7-4e05-9c90-fedb8afdae46)
 
-## Paso #
 
 # Parte II:
 
