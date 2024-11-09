@@ -37,7 +37,14 @@
 ![image](https://github.com/user-attachments/assets/18aa79ee-21f7-4e05-9c90-fedb8afdae46)
 
 
-# Parte II:
+# Parte II: La Lluvia
+
+![Screenshot 2024-11-08 194055](https://github.com/user-attachments/assets/18ad853d-9d19-4a68-a68b-913c85ba643f)
+
+Se creó el prefab de una gota de lluvia utilizando una esfera y se le pusieron los scripts de Contact Destroy y Autodestroy, para que las gotas se destruyan una vez toquen el suelo y Drop Damage, para que las gotas le hagan daño al jugador.
+
+Además se le colocó un rigidbody con gravedad, para que cayeran y  un capsule collider, para que no se amontonaran las gotas al caer.
+
 
 # Parte III: 
 
