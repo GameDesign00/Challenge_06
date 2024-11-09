@@ -73,47 +73,48 @@
 
 # Pisos, paredes y esquinas
 
-### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
+Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
 
-### Código de Floor:
+Código de Floor:
 
-### Código de Floor Manager: 
+Código de Floor Manager: 
 
-### Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
+Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
 
-### Código de Wall:
+Código de Wall:
 
-### Código de Wall Manager:
+Código de Wall Manager:
 
-### Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
+Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
 
-### Código de Corner:
+Código de Corner:
 
-### Código de Corner Manager:
+Código de Corner Manager:
 
-### Código de Contact Corner: 
-
-
-### Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
-
-### Código de Destroy Floor:
+Código de Contact Corner: 
 
 
-### Layers de colisión: 
+Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
 
-### Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí. 
-
-### Se le aplicaron los layers a los objetos.
+Código de Destroy Floor:
 
 
-# Creacion de las Condiciones de Victoria y Derrota
-## Creacion de Escenas de Victoria y Derrota
-### Creamos dos escenas distintas a la principal. La primera la nombramos WinScreen y la segunda LoseScreen. En cada una colocamos un plano e insertamos una imagen que indicara si ganaste o perdiste. Le anadimos un skybox para darle un poco de atmosfera a las escenas. A continuacion mostramos imagenes de los resultados: 
+Layers de colisión: 
+
+Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí. 
+
+Se le aplicaron los layers a los objetos.
+
+
+# Creación de las Escenas y Condiciones de Victoria y Derrota
+## Escenas de Victoria y Derrota
+### Creamos dos escenas adicionales a la principal: WinScreen y LoseScreen. En cada una, colocamos un plano con una imagen que indica si el jugador ganó o perdió. Para añadir ambiente, utilizamos un skybox en cada escena. A continuación, mostramos imágenes de los resultados:
 ![image](https://github.com/user-attachments/assets/2f6b179c-bad3-47a1-a6b1-82c4dff87a95)
 ![image](https://github.com/user-attachments/assets/d05ba787-52f4-493f-82b2-baa359221f15)
-### Para manejar las transiciones a las distintas escenas, insertamos un objeto vacio llamado GameMode y le colocamos el siguiente script
-
-### Aqui esta el r
+### Para gestionar las transiciones entre escenas, añadimos un objeto vacío llamado GameMode y le asignamos un script. Las condiciones de victoria se cumplen cuando el jugador elimina a todos los enemigos, mientras que la derrota ocurre si el personaje cae de la escena. A continuacion mostramos el script junto con ejemplos de perder y ganar: 
+![WhatsApp Image 2024-11-08 at 22 20 02_9d445afd](https://github.com/user-attachments/assets/1afc4ae1-557b-4189-ba1f-61fd104a9874)
+![YouWin](https://github.com/user-attachments/assets/eace81d7-3d08-4c4e-94df-6e09999129a9)
+![You Lose](https://github.com/user-attachments/assets/43917ca2-f466-4db9-b8eb-1a4fd19c6078)
 
 # Opiniones Personales Sobre la Actividad
 
