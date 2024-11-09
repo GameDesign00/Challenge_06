@@ -43,7 +43,7 @@
 ![image](https://github.com/user-attachments/assets/18aa79ee-21f7-4e05-9c90-fedb8afdae46)
 ![image](https://github.com/user-attachments/assets/a39fb465-cab4-43e0-9b5b-8e3023433952)
 
-### Finalmente, para crear la Bala, hicimos un prefab de una esfera, le asignamos un material, añadimos un Rigidbody y un Sphere Collider, ajustamos sus dimensiones y agregamos los scripts: ContactDestroy, AutoDestroy, ContactDamage y ForwardMovement. A continuación, se muestran los scripts con su Collider:
+### Finalmente, para crear la bala, hicimos un prefab de una esfera, le asignamos un material, añadimos un Rigidbody y un Sphere Collider, ajustamos sus dimensiones y agregamos los scripts: ContactDestroy, AutoDestroy, ContactDamage y ForwardMovement. A continuación, se muestran los scripts con su Collider:
 ![image](https://github.com/user-attachments/assets/a37800b0-0a01-49ba-9106-da3daf151d74)
 ![image](https://github.com/user-attachments/assets/6e92811a-bb1e-49fd-bb67-be781f23959c)
 ![image](https://github.com/user-attachments/assets/3f9852e6-3839-404f-8eef-fe27d7639288)
@@ -111,7 +111,7 @@ Se le aplicaron los layers a los objetos.
 ### Creamos dos escenas adicionales a la principal: WinScreen y LoseScreen. En cada una, colocamos un plano con una imagen que indica si el jugador ganó o perdió. Para añadir ambiente, utilizamos un skybox en cada escena. A continuación, mostramos imágenes de los resultados:
 ![image](https://github.com/user-attachments/assets/2f6b179c-bad3-47a1-a6b1-82c4dff87a95)
 ![image](https://github.com/user-attachments/assets/d05ba787-52f4-493f-82b2-baa359221f15)
-### Para gestionar las transiciones entre escenas, añadimos un objeto vacío llamado GameMode y le asignamos un script. Las condiciones de victoria se cumplen cuando el jugador elimina a todos los enemigos, mientras que la derrota ocurre si el personaje cae de la escena. A continuacion mostramos el script junto con ejemplos de perder y ganar: 
+### Para gestionar las transiciones entre escenas, añadimos un objeto vacío llamado GameMode y le asignamos un script. Las condiciones de victoria se cumplen cuando el jugador elimina a todos los enemigos, mientras que la derrota ocurre si el personaje cae de la escena. A continuación mostramos el script junto con ejemplos de perder y ganar: 
 ![WhatsApp Image 2024-11-08 at 22 20 02_9d445afd](https://github.com/user-attachments/assets/1afc4ae1-557b-4189-ba1f-61fd104a9874)
 ![YouWin](https://github.com/user-attachments/assets/eace81d7-3d08-4c4e-94df-6e09999129a9)
 ![You Lose](https://github.com/user-attachments/assets/43917ca2-f466-4db9-b8eb-1a4fd19c6078)
