@@ -51,6 +51,7 @@
 ![image](https://github.com/user-attachments/assets/ab073330-0efa-48f0-af50-7b645b4e1887)
 
 ### Una vez completados todos estos pasos, tendríamos lista una maqueta básica del proyecto. El resultado debería ser el siguiente:
+![Maqueta](https://github.com/user-attachments/assets/83aaa870-4498-403b-ae15-bf2b6340c868)
 
 
 # Creación de la Lluvia
@@ -127,14 +128,20 @@
 ### Creamos dos escenas adicionales a la principal: WinScreen y LoseScreen. En cada una, colocamos un plano con una imagen que indica si el jugador ganó o perdió. Para añadir ambiente, utilizamos un skybox en cada escena. A continuación, mostramos imágenes de los resultados:
 ![image](https://github.com/user-attachments/assets/2f6b179c-bad3-47a1-a6b1-82c4dff87a95)
 ![image](https://github.com/user-attachments/assets/d05ba787-52f4-493f-82b2-baa359221f15)
-### Para gestionar las transiciones entre escenas, añadimos un objeto vacío llamado GameMode y le asignamos un script. Las condiciones de victoria se cumplen cuando el jugador elimina a todos los enemigos, mientras que la derrota ocurre si el personaje cae de la escena. A continuación mostramos el script junto con ejemplos de perder y ganar: 
+### Para gestionar las transiciones entre escenas, añadimos un objeto vacío llamado GameMode y le asignamos un script. Las condiciones de victoria se cumplen cuando el jugador elimina a todos los enemigos, mientras que la derrota ocurre si el personaje cae de la escena o si sufre mucho daño a causa de la lluvia. A continuación mostramos el script junto con ejemplos de perder y ganar: 
 ![WhatsApp Image 2024-11-08 at 22 20 02_9d445afd](https://github.com/user-attachments/assets/1afc4ae1-557b-4189-ba1f-61fd104a9874)
 ![YouWin](https://github.com/user-attachments/assets/eace81d7-3d08-4c4e-94df-6e09999129a9)
 ![You Lose](https://github.com/user-attachments/assets/43917ca2-f466-4db9-b8eb-1a4fd19c6078)
+![FInalResult](https://github.com/user-attachments/assets/084ad969-c362-4990-ad9b-12d9bee94087)
+
+
+# Resultado Final del Proyecto:
+![FInalResult](https://github.com/user-attachments/assets/c720051b-9f5a-4eb6-91fc-0fc15c26cae1)
 
 # Opiniones Personales Sobre la Actividad
 
 ## Sebastián Negrón:
+### Me gustó mucho este proyecto porque cambió la forma en que solíamos abordar los retos. Normalmente, dividíamos las tareas individualmente y luego las uníamos al final. Esta vez, optamos por trabajar juntos en llamadas, intercambiando ideas en tiempo real. Me encantó este método porque fue más dinámico y nos prepara mucho mejor para el proyecto final. Además, este proyecto fue el que más requirió el uso de la creatividad para resolver problemas.
 
 ## Mayra Lago:
 ## Jancarlos González:
