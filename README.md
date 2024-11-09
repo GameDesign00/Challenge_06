@@ -58,7 +58,7 @@
 
 # Parte III: Suelos y Paredes
 
-
+### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
 
 # Parte IV: 
 
