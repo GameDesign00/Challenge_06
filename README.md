@@ -43,7 +43,7 @@
 
 Se creó el prefab de una gota de lluvia utilizando una esfera y se le pusieron los scripts de Contact Destroy y Autodestroy, para que las gotas se destruyan una vez toquen el suelo y Drop Damage, para que las gotas le hagan daño al jugador.
 
-Además se le colocó un rigidbody con gravedad, para que cayeran y  un capsule collider, para que no se amontonaran las gotas al caer.
+Además se le colocó un rigidbody con gravedad para que cayeran y  un capsule collider para que no se amontonaran las gotas al caer.
 
 
 # Parte III: 
