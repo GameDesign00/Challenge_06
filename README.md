@@ -43,15 +43,17 @@
 ![image](https://github.com/user-attachments/assets/18aa79ee-21f7-4e05-9c90-fedb8afdae46)
 ![image](https://github.com/user-attachments/assets/a39fb465-cab4-43e0-9b5b-8e3023433952)
 
-### FInalmente, para la creacion de la Bala hicimos un prefab de una esfera, le colocamos un material, le anadimos un rigibdoy y sphere collider, ajustamos las dimensiones y le colocamos los siguientes scripts de ContactDestroy, AutoDestroy, ContactDamage y ForwardMovement. A continuacion se muestran los scripts con su Collider:
+### Finalmente, para crear la Bala, hicimos un prefab de una esfera, le asignamos un material, añadimos un Rigidbody y un Sphere Collider, ajustamos sus dimensiones y agregamos los scripts: ContactDestroy, AutoDestroy, ContactDamage y ForwardMovement. A continuación, se muestran los scripts con su Collider:
 ![image](https://github.com/user-attachments/assets/a37800b0-0a01-49ba-9106-da3daf151d74)
 ![image](https://github.com/user-attachments/assets/6e92811a-bb1e-49fd-bb67-be781f23959c)
 ![image](https://github.com/user-attachments/assets/3f9852e6-3839-404f-8eef-fe27d7639288)
-
+![image](https://github.com/user-attachments/assets/cbb0d570-6f5d-4fca-a405-7d9f103097f0)
 ![image](https://github.com/user-attachments/assets/ab073330-0efa-48f0-af50-7b645b4e1887)
 
+### Una vez completados todos estos pasos, tendríamos lista una maqueta básica del proyecto. El resultado debería ser el siguiente:
 
-# Parte II: La Lluvia
+
+# Creación de la Lluvia
 
 ![Screenshot 2024-11-08 194055](https://github.com/user-attachments/assets/18ad853d-9d19-4a68-a68b-913c85ba643f)
 
@@ -69,7 +71,14 @@
 
 ![Screenshot 2024-11-08 195153](https://github.com/user-attachments/assets/820a0168-ec31-4fe1-8054-711b80de0d10)
 
-### 
+# Creacion de las Condiciones de Victoria y Derrota
+## Creacion de Escenas de Victoria y Derrota
+### Creamos dos escenas distintas a la principal. La primera la nombramos WinScreen y la segunda LoseScreen. En cada una colocamos un plano e insertamos una imagen que indicara si ganaste o perdiste. Le anadimos un skybox para darle un poco de atmosfera a las escenas. A continuacion mostramos imagenes de los resultados: 
+![image](https://github.com/user-attachments/assets/2f6b179c-bad3-47a1-a6b1-82c4dff87a95)
+![image](https://github.com/user-attachments/assets/d05ba787-52f4-493f-82b2-baa359221f15)
+### Para manejar las transiciones a las distintas escenas, insertamos un objeto vacio llamado GameMode y le colocamos el siguiente script
+
+### Aqui esta el r
 
 # Opiniones Personales Sobre la Actividad
 
