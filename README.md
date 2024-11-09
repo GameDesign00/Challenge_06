@@ -73,37 +73,37 @@
 
 # Pisos, paredes y esquinas
 
-Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
+### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
 
-Código de Floor:
+### Código de Floor:
 
-Código de Floor Manager: 
+### Código de Floor Manager: 
 
-Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
+### Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
 
-Código de Wall:
+### Código de Wall:
 
-Código de Wall Manager:
+### Código de Wall Manager:
 
-Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
+### Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
 
-Código de Corner:
+### Código de Corner:
 
-Código de Corner Manager:
+### Código de Corner Manager:
 
-Código de Contact Corner: 
-
-
-Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
-
-Código de Destroy Floor:
+### Código de Contact Corner: 
 
 
-Layers de colisión: 
+### Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
 
-Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí. 
+### Código de Destroy Floor:
 
-Se le aplicaron los layers a los objetos.
+
+### Layers de colisión: 
+
+### Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí. 
+
+### Se le aplicaron los layers a los objetos.
 
 
 # Creacion de las Condiciones de Victoria y Derrota
