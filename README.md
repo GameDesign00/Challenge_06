@@ -144,6 +144,7 @@
 ### Me gustó mucho este proyecto porque cambió la forma en que solíamos abordar los retos. Normalmente, dividíamos las tareas individualmente y luego las uníamos al final. Esta vez, optamos por trabajar juntos en llamadas, intercambiando ideas en tiempo real. Me encantó este método porque fue más dinámico y nos prepara mucho mejor para el proyecto final. Además, este proyecto fue el que más requirió el uso de la creatividad para resolver problemas.
 
 ## Mayra Lago:
+### Este proyecto fue muy interesante, porque además de poner en práctica lo aprendido tuvimos que pensar en soluciones ingeniosas para los posibles escenarios. La parte que más me gustó fue la implementación de la lluvia, pues fue divertido jugar con las físicas de las gotas y su spawn rate. Además de que la mecánica del piso que se elimina sumado a la cantidad de enemigos y a las gotas asesinas, hacen que el juego sea un reto divertido. 
 
 ## Jancarlos González:
 ### Este proyecto resultó ser muy desafiante, ya que se nos pidió hacer cosas que se vieron en clases, que no son tan complejas ya teníamos una guía de como hacerlas. Sin embargo, nosotros fuimos un poco más allá y le dimos nuestra propia dificultad. Por ejemplo, hicimos que las gotas puedan matar al jugador, eso es algo que se nos ocurrió, ya que normalmente solo se acumulan. Por lo que le añadimos un reto adicional al juego. En general el proyecto me sirvió mucho para repasar conceptos viejos como la matriz de colisiones.
