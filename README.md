@@ -73,37 +73,53 @@
 
 # Pisos, paredes y esquinas
 
-Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
+### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
 
-Código de Floor:
+### Código de Floor:
 
-Código de Floor Manager: 
+![Floor](https://github.com/user-attachments/assets/8cbf8fed-6ebb-408d-9e8d-77c7c73371b2)
 
-Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
+### Código de Floor Manager: 
 
-Código de Wall:
+![FloorManager](https://github.com/user-attachments/assets/c5a65c5f-8a2d-42d8-8542-90d3fc2e4f00)
 
-Código de Wall Manager:
+### Se hicieron los scripts Wall y Wall Manager, para saber la cantidad de paredes que  hay durante la partida.
 
-Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
+### Código de Wall:
 
-Código de Corner:
+![Wall](https://github.com/user-attachments/assets/a17e13e2-5b3e-40ca-9392-c9307932a850)
 
-Código de Corner Manager:
+### Código de Wall Manager:
 
-Código de Contact Corner: 
+![WallManager](https://github.com/user-attachments/assets/6a230dcd-3a58-4625-b826-fffc41da555d)
 
+### Se creó el script Contact Wall para determinar cuando una bala toca la pared. 
 
-Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
+### Código de Contact Wall:
 
-Código de Destroy Floor:
+![ContactWall](https://github.com/user-attachments/assets/b928da8f-6a9f-4880-aa7c-69aaf07fdda1)
 
+### Para las esquinas se realizaron 3 scripts, Corner, Corner Manager y Contact Corner. Los primeros dos cuentan las esquinas y el último se encarga de destruir todos los pisos una vez que el jugador le dispara a las esquinas. Este código destruye todos los pisos a la vez, destruyendo el Floor Grid donde están colocados los pisos. Además de imprimir el mensaje Hit Corner en la consola.
 
-Layers de colisión: 
+### Código de Contact Corner: 
 
-Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí. 
+![ContactCorner](https://github.com/user-attachments/assets/6f95cbc5-a91c-467a-ae3b-4995fafdc91f)
 
-Se le aplicaron los layers a los objetos.
+### Luego se creó el script Destroy Floor, que recoge cada uno de los pisos para destruir uno aleatorio cada vez que una bala impacta contra una pared. Para generar el número random se utiliza Random Range, con un rango del 0 al 16. Se utilizó este rango porque 16 es el máximo de pisos. El número random obtenido se evalúa en un switch case, donde cada caso destruye un piso en específico. 
+
+### Código de Destroy Floor:
+
+![DestroyFloor0](https://github.com/user-attachments/assets/c53b2455-39b1-4f50-a794-c19e07c3534e)
+![DestroyFloor1](https://github.com/user-attachments/assets/eb6c52e1-4a82-4a3e-bf54-6df9b1d15c84)
+
+### Layers de colisión: 
+
+### Se crearon los layers: EnemyVariant, Bullet, Drop, FloorPanel, cornerVariant y sidewallsVariant, para determinar la forma en que interactúan los objetos. Pues las balas y los enemigos no son afectados por la lluvia, en cambio el jugador sí.
+
+### Matriz con layers:
+![Matriz](https://github.com/user-attachments/assets/f369fc1b-ebb5-47b9-a82d-35f36d6c2bab)
+
+### Se le aplicaron los layers a los objetos.
 
 
 # Creación de las Escenas y Condiciones de Victoria y Derrota
