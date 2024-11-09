@@ -56,7 +56,9 @@
 ![Screenshot 2024-11-08 195153](https://github.com/user-attachments/assets/820a0168-ec31-4fe1-8054-711b80de0d10)
 
 
-# Parte III: 
+# Parte III: Suelos y Paredes
+
+
 
 # Parte IV: 
 
