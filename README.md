@@ -6,35 +6,49 @@
 ### -  SkySeries Freebie
 ### -  Input System (nuevo método de player inputs)
 
-# Parte I: Diseño del Escenario Principal
-## Paso #1: Crear el Piso
+# Creación de la Base 
+## Paso 1: Crear el Piso
 ### Inserta un cubo, ajusta sus dimensiones y añade una textura para simular losas de piso. Conviértelo en prefab. Asegúrate de que tenga componentes de Rigidbody y Box Collider. Crea un objeto vacío y coloca 16 copias del prefab formando un 4x4. Ajusta el tamaño según lo necesites.
 ![image](https://github.com/user-attachments/assets/594ea6e9-3d3b-4773-bc25-1523bbf89dc9)
 
-## Paso #2: Crear el Template
+## Paso 2: Crear el Template
 ### Debajo del piso, inserta otro cubo, llamado "template"; este cubo no llevará componentes. Ajústalo para que sea un poco más grande que el piso. 
 ![image](https://github.com/user-attachments/assets/3e5971ae-fb00-4b5b-b11c-41c162c863a8)
 
-## Paso #3: Añadir Esquinas y Jugador Principal
+## Paso 3: Añadir Esquinas y Jugador Principal
 ### Selecciona una esquina y conviértela en prefab. Agrega Rigidbody y Colliders, y coloca las cuatro esquinas en un objeto vacío. Finalmente, añade el jugador principal.
 ![Screenshot (449)](https://github.com/user-attachments/assets/0ec73b09-0ad9-4197-9af5-90e511b07330)
 
-
-## Paso #4: Colocar Paredes
+## Paso 4: Colocar Paredes
 ### Crea un prefab de pared y añade Rigidbody y Collider. Coloca las paredes en un objeto vacío, con ocho entre cada esquina, totalizando 32 paredes.
 ![image](https://github.com/user-attachments/assets/29233abf-5573-43d9-9a01-97cc0251624f)
 
-## Paso #5: Configurar Spawners de Enemigos y Añadir Skybox (adicional)
+## Paso 5: Configurar Spawners de Enemigos y Añadir Skybox (adicional)
 ### Crea un objeto vacío llamado EnemySpawners y coloca cuatro objetos vacíos adicionales dentro. A cada uno, asígnales el siguiente script:
 ![image](https://github.com/user-attachments/assets/f68e9e2c-0783-43d3-922a-5fdc1638b779)
 ### Asegúrate de que cada spawner tenga un objeto asignado. Aquí usamos un prefab del mismo modelo del jugador, llamado Enemy. Para hacer la escena más dinámica, incluimos un skybox. 
 ![image](https://github.com/user-attachments/assets/cc62815e-0ff3-4bab-aa08-da707ed170d1)
 
-## Paso 6: 
-### Los siguientes scripts son importantes para el funcionamiento del proyecto. A continuacion, pon estos scripts al enemigo: Enemy, EnemyLife y EnemyMovement
+## Paso 6: Componentes y Scripts para el Player, Enemy y Bala
+### Para el Player, se agregó un Capsule Collider ajustado para evitar caídas y un Rigidbody. Se añadieron los scripts: Life, PlayerShooting y PlayerMovement, usando el nuevo sistema de inputs de Unity. Aquí están los scripts del Player junto con su Collider:
+![image](https://github.com/user-attachments/assets/a75f8252-93fe-41e6-9d19-0952a5fd77c0)
+![image](https://github.com/user-attachments/assets/7f3542a8-c125-4f67-a73f-a039febfec2d)
+![image](https://github.com/user-attachments/assets/e1bbcfa3-3ec4-4d4a-b93c-69a589331520)
+![image](https://github.com/user-attachments/assets/13568200-d622-45be-a72f-d3b5820c8b16)
+![image](https://github.com/user-attachments/assets/616642d4-6d82-434e-be8e-08c4fc031181)
+
+### Para el Enemy, se agregó un Capsule Collider ajustado y los scripts: Enemy, EnemyLife y ForwardMovement. A continuación, se muestran los scripts y su Collider:
 ![image](https://github.com/user-attachments/assets/14b85bca-6eb7-429b-88b1-395778ee8f65)
 ![image](https://github.com/user-attachments/assets/908ad873-b726-44cf-8c7a-cfd66b25f342)
 ![image](https://github.com/user-attachments/assets/18aa79ee-21f7-4e05-9c90-fedb8afdae46)
+![image](https://github.com/user-attachments/assets/a39fb465-cab4-43e0-9b5b-8e3023433952)
+
+### FInalmente, para la creacion de la Bala hicimos un prefab de una esfera, le colocamos un material, le anadimos un rigibdoy y sphere collider, ajustamos las dimensiones y le colocamos los siguientes scripts de ContactDestroy, AutoDestroy, ContactDamage y ForwardMovement. A continuacion se muestran los scripts con su Collider:
+![image](https://github.com/user-attachments/assets/a37800b0-0a01-49ba-9106-da3daf151d74)
+![image](https://github.com/user-attachments/assets/6e92811a-bb1e-49fd-bb67-be781f23959c)
+![image](https://github.com/user-attachments/assets/3f9852e6-3839-404f-8eef-fe27d7639288)
+
+![image](https://github.com/user-attachments/assets/ab073330-0efa-48f0-af50-7b645b4e1887)
 
 
 # Parte II: La Lluvia
@@ -55,24 +69,7 @@
 
 ![Screenshot 2024-11-08 195153](https://github.com/user-attachments/assets/820a0168-ec31-4fe1-8054-711b80de0d10)
 
-
-# Parte III: Suelos y Paredes
-
-### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
-
-### Código de Floor:
-
-![Screenshot 2024-11-08 215356](https://github.com/user-attachments/assets/738ce553-a000-4779-bede-b758fcbb6de7)
-
-### Código del Floor Manager:
-
-![Screenshot 2024-11-08 215745](https://github.com/user-attachments/assets/84a33630-90e9-4b55-8835-0025165d8864)
-![Screenshot 2024-11-08 215821](https://github.com/user-attachments/assets/3046fcd1-ec1b-4fd3-b7e4-9f8f39193013)
-
-
-# Parte IV: 
-
-# Parte V: 
+### 
 
 # Opiniones Personales Sobre la Actividad
 
