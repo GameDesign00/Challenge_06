@@ -45,6 +45,16 @@ Se creó el prefab de una gota de lluvia utilizando una esfera y se le pusieron 
 
 Además se le colocó un rigidbody con gravedad para que cayeran y  un capsule collider para que no se amontonaran las gotas al caer.
 
+Se crearon dos empty objects uno llamado Rain con el script para spawnear las gotas de lluvia (Rain Spawner) y un Rain Manager, con un script con el mismo nombre que se encarga de manejar las gotas que caen al escenario.
+
+Código de Rain Spawner:
+
+![Screenshot 2024-11-08 201021](https://github.com/user-attachments/assets/5c630fe3-0b8f-451a-8949-bad09b5fb457)
+
+Código del Rain Manager:
+
+![Screenshot 2024-11-08 195153](https://github.com/user-attachments/assets/820a0168-ec31-4fe1-8054-711b80de0d10)
+
 
 # Parte III: 
 
