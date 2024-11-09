@@ -60,6 +60,14 @@
 
 ### Se hicieron los scripts Floor y Floor Manager, para manejar los pisos y saber cuantos pisos son destruidos durante la partida.
 
+### Código de Floor:
+
+![Screenshot 2024-11-08 215356](https://github.com/user-attachments/assets/738ce553-a000-4779-bede-b758fcbb6de7)
+
+### Código del Floor Manager:
+
+
+
 # Parte IV: 
 
 # Parte V: 
