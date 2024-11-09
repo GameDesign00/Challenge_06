@@ -66,6 +66,8 @@
 
 ### Código del Floor Manager:
 
+![Screenshot 2024-11-08 215745](https://github.com/user-attachments/assets/84a33630-90e9-4b55-8835-0025165d8864)
+![Screenshot 2024-11-08 215821](https://github.com/user-attachments/assets/3046fcd1-ec1b-4fd3-b7e4-9f8f39193013)
 
 
 # Parte IV: 
